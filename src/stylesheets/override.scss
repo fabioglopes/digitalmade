@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+.item-thumbs {
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.row.thumbs{
+    margin-left: -20px;
+    margin-right:-20px;
+}
+
+#thumbs .col-lg-3{
+
+    width: 22%;
+
+}
+
+.modal-content{
+    border-radius: 0;
+
+}
+
+.modal-header{
+    border-bottom: 3px solid #00ccdb;
+
+}
+
+@media (max-width: 480px) {
+
+    h3.display-4.title1{
+        font-size: 1rem;
+        letter-spacing: 0.3rem;
+
+    }
+
+    h1.display-2.title2{
+        font-size: 2rem;
+    }
+
+}
+

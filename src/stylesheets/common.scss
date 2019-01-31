@@ -1,0 +1,109 @@
+#nprogress .bar {
+background: $primary-color;
+border-top: solid 1px $primary-color;
+border-bottom: solid 1px $primary-color;
+}
+
+#nprogress .peg {
+
+box-shadow: 0 0 10px $primary-color, 0 0 5px $primary-color;
+}
+
+#nprogress .spinner-icon {
+border-top-color: $primary-color;
+border-left-color: $primary-color;
+}
+
+.bar {
+border-top: solid 1px $primary-color;
+border-bottom: solid 1px $primary-color;
+}
+
+.accordion-heading .accordion-toggle.inactive {
+    background: #FFFFFF;
+}
+
+#process{
+.col-lg-4{
+    width: 20%;
+}
+}
+#thumbs{
+.col-lg-6{
+    margin-right:5px;
+    margin-left:5px;
+}
+.item-thumbs{
+    width:24%;
+}
+}
+body{
+    padding-top:0;
+}
+
+.overlay{
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+
+    background-color: rgba(0,0,0,0.5);
+    top: 20%;
+}
+
+h3.title1{
+    color: #fff;
+    letter-spacing: 1.4rem;
+    font-size: 1.5rem;
+}
+
+h1.title2{
+    color: #fff;
+    letter-spacing: 1rem;
+    font-size:3rem;
+
+    line-height: 1.5;
+}
+
+
+.navbar-digital{
+    background-color: #fff !important;
+    border-bottom: solid 4px #00ccdb;
+    padding: 0.2rem 0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:#00ccdb;
+    border-color: darken(#00ccdb, 2%);
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: darken(#00ccdb, 10%);
+    border-color: darken(#00ccdb, 10%);
+}
+
+.form-control{
+    border-radius: 0;
+    border-color: #e8e8e8;
+}
+
+.form-control:focus {
+    border-color: #00ccdb;
+}
+
+.carousel{
+    border-bottom: solid 8px #b6b6b6;
+}
+
+#menu-nav{
+.nav-link {
+    display: block;
+    padding: 0.1rem 0.1rem;
+}
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background: none;
+}
