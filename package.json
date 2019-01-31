@@ -13,7 +13,7 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.7.0",
     "autoprefixer": "^8.6.5",
-    "copy-webpack-plugin": "^4.5.1",
+    "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^0.28.11",
     "exports-loader": "^0.7.0",
     "file-loader": "^1.1.11",
