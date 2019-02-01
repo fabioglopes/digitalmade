@@ -2,10 +2,11 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CopyWebpackPlugin = require('copy-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
+
 
 module.exports = {
     entry: {
@@ -20,9 +21,20 @@ module.exports = {
         open: true,
         contentBase: path.join(__dirname, "../src"),
     },
+
     module: {
+
         rules: [
-            { test: /\.handlebars$/, loader: "handlebars-loader" },
+            { test: /\.handlebars$/,
+
+                loader: "handlebars-loader", options: {
+
+                    helperDirs: path.join(__dirname, '../src/modules/helpers'),
+                    precompileOptions: {
+                        knownHelpersOnly: false,
+                    },
+                 },
+             },
             {
                 test: /\.(scss|css)$/,
                 use: [
@@ -128,3 +140,6 @@ module.exports = {
           })
       ]
   };
+
+
+
