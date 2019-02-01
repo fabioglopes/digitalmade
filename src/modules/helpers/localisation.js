@@ -1,8 +1,8 @@
 // Handlebars Localisation Helper
 // Source: https://gist.github.com/tracend/3261055
-var Handlebars = require('handlebars/runtime');
+const Handlebars = require('handlebars/runtime');
 
-Handlebars.registerHelper('l10n', function(keyword) {
+Handlebars.registerHelper('localisation', function(keyword) {
     var lang = (navigator.language) ? navigator.language : navigator.userLanguage;
 
     // pick the right dictionary (if only one available assume it's the right one...)
